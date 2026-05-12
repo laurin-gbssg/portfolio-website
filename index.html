@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio von Laurin Polla – Informatik-Lernender an der GBS St. Gallen">
+  <title>Laurin Polla – Startseite</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <a href="index.html" class="logo" aria-label="Startseite">
+      <img src="assets/img/logo.png" alt="Laurin Polla Logo" width="612" height="408">
+    </a>
+    <nav class="nav" aria-label="Hauptnavigation">
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-list" aria-label="Menü öffnen">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-list" id="nav-list">
+        <li><a href="index.html"         class="nav-link active">Startseite</a></li>
+        <li><a href="faehigkeiten.html"  class="nav-link">Fähigkeiten</a></li>
+        <li><a href="portfolio.html"     class="nav-link">Portfolio</a></li>
+        <li><a href="kontakt.html"       class="nav-link">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="hero" aria-labelledby="ueber-mich-titel">
+      <div class="hero-card">
+        <h1 id="ueber-mich-titel">Über mich</h1>
+        <p>
+          Ich bin Laurin Polla, ein angehender Informatiker aus der Schweiz.
+          Ich besuche die GBS St. Gallen und bilde mich im Bereich
+          Applikationsentwicklung aus. Neben der Schule entwickle ich eigene
+          Projekte und entdecke täglich neue Technologien.
+        </p>
+        <p class="hero-card__second-para">
+          Meine Interessen liegen in der Webentwicklung, der
+          Spieleprogrammierung und der objektorientierten Softwareentwicklung.
+          Ich schätze sauberen, strukturierten Code und lege grossen Wert auf
+          ein ansprechendes Design.
+        </p>
+      </div>
+      <div class="hero-image">
+        <figure class="hero-photo">
+          <img
+            src="assets/img/profil.png"
+            alt="Profilfoto von Laurin Polla"
+            width="3944" height="3944"
+            loading="eager"
+          >
+        </figure>
+      </div>
+    </section>
+
+    <nav class="quick-nav" aria-label="Schnellnavigation">
+      <a href="faehigkeiten.html" class="btn btn-primary">Fähigkeiten</a>
+      <a href="portfolio.html"    class="btn btn-primary">Portfolio</a>
+      <a href="kontakt.html"      class="btn btn-primary">Kontakt</a>
+    </nav>
+
+  </main>
+
+  <footer class="site-footer">
+    <hr class="footer-line">
+    <p>© 2026 Laurin Polla &middot; <a href="#">Impressum</a> &middot; <a href="#">Datenschutz</a></p>
+  </footer>
+
+  <script src="js/nav.js"></script>
+</body>
+</html>

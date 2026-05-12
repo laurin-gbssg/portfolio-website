@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Fähigkeiten von Laurin Polla – HTML, CSS, Java, SQL, Python">
+  <title>Laurin Polla – Fähigkeiten</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <a href="index.html" class="logo" aria-label="Startseite">
+      <img src="assets/img/logo.png" alt="Laurin Polla Logo" width="612" height="408">
+    </a>
+    <nav class="nav" aria-label="Hauptnavigation">
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-list" aria-label="Menü öffnen">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-list" id="nav-list">
+        <li><a href="index.html"         class="nav-link">Startseite</a></li>
+        <li><a href="faehigkeiten.html"  class="nav-link active">Fähigkeiten</a></li>
+        <li><a href="portfolio.html"     class="nav-link">Portfolio</a></li>
+        <li><a href="kontakt.html"       class="nav-link">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <div class="section-title">
+      <h1>Meine Fähigkeiten</h1>
+      <p>Technologien und Sprachen, mit denen ich täglich arbeite</p>
+    </div>
+
+    <ul class="skills-list" aria-label="Fähigkeiten">
+
+      <li class="skill-card">
+        <h2>HTML</h2>
+        <p>
+          Die Grundlage jeder Website. Ich strukturiere Inhalte semantisch
+          korrekt mit HTML5 und lege damit das Fundament für zugängliche und
+          gut wartbare Webseiten.
+        </p>
+      </li>
+
+      <li class="skill-card">
+        <h2>CSS</h2>
+        <p>
+          Mit CSS gestalte ich ansprechende, responsive Layouts. Ich nutze
+          moderne Techniken wie Flexbox, Grid und CSS-Variablen für sauberen,
+          wartbaren Stil-Code ohne Redundanzen.
+        </p>
+      </li>
+
+      <li class="skill-card">
+        <h2>Java</h2>
+        <p>
+          Java ist eine meiner Kernsprachen. Ich programmiere
+          objektorientiert, nutze Datenstrukturen effizient und setze
+          Algorithmen strukturiert um.
+        </p>
+      </li>
+
+      <li class="skill-card">
+        <h2>SQL</h2>
+        <p>
+          Mit SQL entwerfe und befrage ich relationale Datenbanken.
+          Ich beherrsche SELECT, JOIN und DDL-Befehle für die strukturierte
+          Verwaltung und Abfrage von Daten.
+        </p>
+      </li>
+
+      <li class="skill-card">
+        <h2>Python</h2>
+        <p>
+          Python setze ich für Skripting, Datenverarbeitung und kleinere
+          Automatisierungsprojekte ein. Die klare Syntax macht es ideal für
+          schnelle Problemlösungen.
+        </p>
+      </li>
+
+    </ul>
+
+    <div class="section-title">
+      <h2>Skill-Übersicht</h2>
+    </div>
+
+    <div class="table-wrapper">
+      <table class="skills-table">
+        <caption class="visually-hidden">Übersicht der Technologien nach Niveau und Anwendungsbereich</caption>
+        <thead>
+          <tr>
+            <th scope="col">Technologie</th>
+            <th scope="col">Niveau</th>
+            <th scope="col">Hauptanwendung</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>HTML</td>
+            <td>Fortgeschritten</td>
+            <td>Seitenstruktur &amp; Semantik</td>
+          </tr>
+          <tr>
+            <td>CSS</td>
+            <td>Fortgeschritten</td>
+            <td>Styling &amp; Responsive Design</td>
+          </tr>
+          <tr>
+            <td>Java</td>
+            <td>Mittelstufe</td>
+            <td>Objektorientierte Programmierung</td>
+          </tr>
+          <tr>
+            <td>SQL</td>
+            <td>Grundkenntnisse</td>
+            <td>Datenbankverwaltung</td>
+          </tr>
+          <tr>
+            <td>Python</td>
+            <td>Grundkenntnisse</td>
+            <td>Skripting &amp; Automatisierung</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+  </main>
+
+  <footer class="site-footer">
+    <hr class="footer-line">
+    <p>© 2026 Laurin Polla &middot; <a href="#">Impressum</a> &middot; <a href="#">Datenschutz</a></p>
+  </footer>
+
+  <script src="js/nav.js"></script>
+</body>
+</html>
