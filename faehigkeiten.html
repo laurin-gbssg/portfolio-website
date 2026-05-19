@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Fähigkeiten von Laurin Polla – HTML, CSS, Java, SQL, Python">
   <title>Laurin Polla – Fähigkeiten</title>
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -89,43 +90,80 @@
     </div>
 
     <div class="table-wrapper">
-      <table class="skills-table">
-        <caption class="visually-hidden">Übersicht der Technologien nach Niveau und Anwendungsbereich</caption>
-        <thead>
-          <tr>
-            <th scope="col">Technologie</th>
-            <th scope="col">Niveau</th>
-            <th scope="col">Hauptanwendung</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>HTML</td>
-            <td>Fortgeschritten</td>
-            <td>Seitenstruktur &amp; Semantik</td>
-          </tr>
-          <tr>
-            <td>CSS</td>
-            <td>Fortgeschritten</td>
-            <td>Styling &amp; Responsive Design</td>
-          </tr>
-          <tr>
-            <td>Java</td>
-            <td>Mittelstufe</td>
-            <td>Objektorientierte Programmierung</td>
-          </tr>
-          <tr>
-            <td>SQL</td>
-            <td>Grundkenntnisse</td>
-            <td>Datenbankverwaltung</td>
-          </tr>
-          <tr>
-            <td>Python</td>
-            <td>Grundkenntnisse</td>
-            <td>Skripting &amp; Automatisierung</td>
-          </tr>
-        </tbody>
-      </table>
+      <div class="table-card">
+        <table class="skills-table">
+          <caption class="visually-hidden">Übersicht der Technologien nach Niveau und Anwendungsbereich</caption>
+          <thead>
+            <tr>
+              <th scope="col">Technologie</th>
+              <th scope="col">Niveau</th>
+              <th scope="col">Hauptanwendung</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>HTML</td>
+              <td>
+                <div class="skill-bar">
+                  <div class="skill-bar__track">
+                    <div class="skill-bar__fill skill-bar__fill--high"></div>
+                  </div>
+                  <span class="skill-bar__label">Fortgeschritten</span>
+                </div>
+              </td>
+              <td>Seitenstruktur &amp; Semantik</td>
+            </tr>
+            <tr>
+              <td>CSS</td>
+              <td>
+                <div class="skill-bar">
+                  <div class="skill-bar__track">
+                    <div class="skill-bar__fill skill-bar__fill--high"></div>
+                  </div>
+                  <span class="skill-bar__label">Fortgeschritten</span>
+                </div>
+              </td>
+              <td>Styling &amp; Responsive Design</td>
+            </tr>
+            <tr>
+              <td>Java</td>
+              <td>
+                <div class="skill-bar">
+                  <div class="skill-bar__track">
+                    <div class="skill-bar__fill skill-bar__fill--mid"></div>
+                  </div>
+                  <span class="skill-bar__label">Sicher</span>
+                </div>
+              </td>
+              <td>Objektorientierte Programmierung</td>
+            </tr>
+            <tr>
+              <td>SQL</td>
+              <td>
+                <div class="skill-bar">
+                  <div class="skill-bar__track">
+                    <div class="skill-bar__fill skill-bar__fill--low"></div>
+                  </div>
+                  <span class="skill-bar__label">Grundkenntnisse</span>
+                </div>
+              </td>
+              <td>Datenbankverwaltung</td>
+            </tr>
+            <tr>
+              <td>Python</td>
+              <td>
+                <div class="skill-bar">
+                  <div class="skill-bar__track">
+                    <div class="skill-bar__fill skill-bar__fill--low"></div>
+                  </div>
+                  <span class="skill-bar__label">Grundkenntnisse</span>
+                </div>
+              </td>
+              <td>Skripting &amp; Automatisierung</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
 
   </main>
