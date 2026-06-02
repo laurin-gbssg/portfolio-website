@@ -714,6 +714,21 @@ main {
     min-width: unset;
   }
 
+  /* Skills table */
+  .skills-table th,
+  .skills-table td {
+    padding: 0.75rem var(--space-sm);
+  }
+
+  .skill-bar__label {
+    display: none;
+  }
+
+  .skills-table th:nth-child(3),
+  .skills-table td:nth-child(3) {
+    display: none;
+  }
+
   /* Projects */
   .projects-list {
     grid-template-columns: 1fr;
